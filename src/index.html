@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
   <div id="root"></div>
 
+  <section id="title" class="title">
+    <h1>Cypher</h1>
+  </section>
+
+  <!-- Ingresar texto a cifrar -->
+  <div class="cypher-content">
+    <section class="inline-block">
+      <textarea id="naturalText" class="natural-text text-area-input"></textarea>
+    </section>
+  
+    <!-- Boton cifrar -->
+    <section class="separation-buttons">
+      <div class="button-area">
+          <input id="offsetNumber" type="text">
+          <button id="encryptionButton" class="encryption-button">cifrar</button>
+      </div>
+    </section>
+  
+  
+    <section class="inline-block" >
+      <textarea id="encryptedText" class="encrypted-text text-area-input"></textarea>
+    </section>    
+  </div>
+
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
+
 </html>

@@ -5,9 +5,9 @@ let naturalText = document.getElementById('naturalText');
 let encryptedText = document.getElementById('encryptedText');
 
 document.getElementById('encryptionButton').addEventListener('click', function encrypt() {
-  window.cipher.encode();
+  document.getElementById('encryptedText').innerHTML = window.cipher.encode(naturalText.value.toUpperCase(), Number(offset.value));
 })
 
 document.getElementById('decryptButton').addEventListener('click', function decrypt() {
-    window.cipher.decode();
+    document.getElementById('encryptedText').innerHTML = window.cipher.decode(naturalText.value.toUpperCase(), Number(offset.value));
 })

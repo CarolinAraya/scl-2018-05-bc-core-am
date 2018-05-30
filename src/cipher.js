@@ -1,10 +1,26 @@
 // aca ira la logica
 
 window.cipher = {
-  encode: () => {
-    /* Acá va tu código */
+  encode: (text, offset) => {
+    var result = "";
+
+    for (var i = 0; i < text.length; i++) {
+      var inputAscii = text.charCodeAt(i);
+      var outputAscii = (inputAscii - 65 + offset) % 26 + 65;
+
+      result += String.fromCharCode(outputAscii);
+    }  
+    return result;
   },
-  decode: () => {
-    /* Acá va tu código */
+  decode: (text, offset) => {
+    var result = "";
+
+    for (var i = 0; i < text.length; i++) {
+      var inputAscii = text.charCodeAt(i);
+      var outputAscii = (inputAscii - 65 - offset) % 26 + 65;
+
+      result += String.fromCharCode(outputAscii);
+    }  
+    return result;
   }
 }

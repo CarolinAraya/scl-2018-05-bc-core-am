@@ -5,8 +5,8 @@ window.cipher = {
     var result = "";
 
     for (var i = 0; i < text.length; i++) {
-      var inputAscii = text.charCodeAt(i);
-      var outputAscii = (inputAscii - 65 + offset) % 26 + 65;
+      //var inputAscii = text.charCodeAt(i);
+      var outputAscii = (text.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65;
 
       result += String.fromCharCode(outputAscii);
     }  
@@ -16,8 +16,8 @@ window.cipher = {
     var result = "";
 
     for (var i = 0; i < text.length; i++) {
-      var inputAscii = text.charCodeAt(i);
-      var outputAscii = (inputAscii - 65 - offset) % 26 + 65;
+      //var inputAscii = text.charCodeAt(i);
+      var outputAscii = (text.charCodeAt(i) + 65 - parseInt(offset)) % 26 + 65;//==>(no era -65, era +)
 
       result += String.fromCharCode(outputAscii);
     }  

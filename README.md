@@ -15,6 +15,21 @@ Básicamente funciona de la siguiente manera; en la primera área de texto (de l
 
 
 
+
+## Cómo descargar
+
+* Si estás leyendo esto ya estas ubicad@/e en mi repositorio, 
+* ahora debes ir al botón verde de la esquina que dice "Clone or download" derecha y copiar el link
+* debes crear una carpeta en tus documentos
+* abrir la terminar y posicionarte en la carpeta donde guardarás mi app con el comando: cd micarpeta, enter
+* iniciar un repositorio con el comando: git init
+* luego clonarlo con el comando: git clone linkdelrepositorio
+* agregar los cambios con: git add .
+
+
+
+
+
 ## Limitaciones
 
 Debido a que es la primera versión y con mis compañeras somos nuevas en esto, nuestra app tiene algunas limitaciones como no poder usar otros caracteres que no sean letras. No puedes usar los signos de; exclamacion, preguntas, puntuaciones,  tildes, números, etc. Y el Key no debe ser de más de 2 dígitos.
@@ -26,9 +41,9 @@ Debido a que es la primera versión y con mis compañeras somos nuevas en esto, 
 
 Nuestra UX se basó en nuestro círculo más cercano, jóvenes entre 20 y 30 años y adultos de 40 hasta 50 años! Y la gran mayoría, sino todos, coincidieron en que prefería un diseño directo y  enfocado. Pero esto no termina acá, esperamos tu opinión para mejorar. Puedes guiarte con estas preguntas:
 
-1-A primera vista, te gustó Cypher?
-2-Te sentiste cómodx con el orden horizontal de los texáreas?
-3-Nombra hasta 3 cosas puntuales que tal vez le cambiarías o agregarías y porqué.
+* 1-A primera vista, te gustó Cypher?
+* 2-Te sentiste cómodx con el orden horizontal de los texáreas?
+* 3-Nombra hasta 3 cosas puntuales que tal vez le cambiarías o agregarías y porqué.
 
 Muchas gracias!
 

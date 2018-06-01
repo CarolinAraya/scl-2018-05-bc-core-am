@@ -19,9 +19,9 @@ Básicamente funciona de la siguiente manera; en la primera área de texto (de l
 ## Cómo descargar
 
 * Si estás leyendo esto ya estas ubicad@/e en mi repositorio, 
-* ahora debes ir al botón verde de la esquina que dice "Clone or download" derecha y copiar el link
+* ahora debes ir al botón verde de la esquina derecha alta que dice "Clone or download" y copiar el link
 * debes crear una carpeta en tus documentos
-* abrir la terminar y posicionarte en la carpeta donde guardarás mi app con el comando: cd micarpeta, enter
+* abrir la terminal y posicionarte en la carpeta donde guardarás mi app con el comando: cd micarpeta, enter
 * iniciar un repositorio con el comando: git init
 * luego clonarlo con el comando: git clone linkdelrepositorio
 * agregar los cambios con: git add .
@@ -47,5 +47,5 @@ Nuestra UX se basó en nuestro círculo más cercano, jóvenes entre 20 y 30 añ
 
 Muchas gracias!
 
-Contacto: _carolina_@hotmail.cl
+Contacto: caro.frontend@gmail.com
 
